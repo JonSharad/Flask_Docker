@@ -1,0 +1,18 @@
+{% extends 'base2.html' %}
+{% block body %}
+<div class="container" name>
+    <table>
+       
+            <tr>
+                {{alldet.emid}}<br>
+            </tr>
+            <tr>
+                {{alldet.pasw}}<br>
+            </tr>
+            <tr>
+                {{alldet.log_time}}<br>
+            </tr>
+        
+    </table></div> 
+    <a href="/del" type="button" class="btn btn-outline-success">Delete Profile</button>   
+{% endblock body %}
